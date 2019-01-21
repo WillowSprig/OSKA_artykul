@@ -1,7 +1,7 @@
 # OSKA_artykul
 **Szablon artykułu Ogólnopolskiej Studenckiej Konferencji Akustyków dla środowiska LaTeX.**
 
-Prosimy korzystać z zaproponowanego formatowania. Na wszelkie uwagi i sugestie dotyczące ulepszenia szablonu chętnie odpowiemy.
+Prosimy korzystać z zaproponowanego formatowania. Na wszelkie uwagi i sugestie dotyczące ulepszenia szablonu chętnie odpowiemy - prosimy kierować je na jeden z adresów podanych w nagłówku pliku .cls.
 
 
 ## Zawartość:
