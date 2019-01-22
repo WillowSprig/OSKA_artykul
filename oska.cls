@@ -2,14 +2,14 @@
 % 
 % File:     oska.cls           (LaTeX Document class option "oska")
 %          
-% Authors: Teresa Makuch	  (tesiamakuch@gmail.com)
-%	   	   Szymon Mikulicz    (szymon.mikulicz@posteo.net)
+% Authors: Teresa Makuch      (tesiamakuch@gmail.com)
+%          Szymon Mikulicz    (szymon.mikulicz@posteo.net)
 %          Marcel Piszak      (marcel.piszak@wp.pl)
 %          AGH University of Science and Technology, Kraków, POLAND
 % 
 % Based on aghdpl.cls by  Marcin Szpyrka     (mszpyrka@agh.edu.pl)
-%          				  Grzegorz J. Nalepa (gjn@agh.edu.pl)
-% 						  Paweł Kłeczek      (p.l.kleczek@gmail.com)
+%                         Grzegorz J. Nalepa (gjn@agh.edu.pl)
+%                         Paweł Kłeczek      (p.l.kleczek@gmail.com)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \message{*** [oska.cls] ---  (SM, MP, TM)  v1.0.3 <17.01.2019>  ***}  
@@ -72,12 +72,12 @@
 
 \newcommand{\maketitles}{
   \begin{flushleft}
-    \textbf{\@namem\ \MakeUppercase{\@surnamem}}
-    \textbf{\ifdefempty{\@namei}{}{, \@namei\ \MakeUppercase{\@surnamei}}}
-    \textbf{\ifdefempty{\@nameii}{}{, \@nameii\ \MakeUppercase{\@surnameii}}}
-    \textbf{\ifdefempty{\@nameiii}{}{, \@nameiii\ \MakeUppercase{\@surnameiii}}}
-    \textbf{\ifdefempty{\@nameiiii}{}{, \@nameiiii\ \MakeUppercase{\@surnameiiii}}}
-    \textbf{\ifdefempty{\@nameiiiii}{}{, \@nameiiiii\ \MakeUppercase{\@surnameiiiii}}}
+    \textbf{\@namem\ \MakeUppercase{\@surnamem}}%
+    \textbf{\ifdefempty{\@namei}{}{, \@namei\ \MakeUppercase{\@surnamei}}}%
+    \textbf{\ifdefempty{\@nameii}{}{, \@nameii\ \MakeUppercase{\@surnameii}}}%
+    \textbf{\ifdefempty{\@nameiii}{}{, \@nameiii\ \MakeUppercase{\@surnameiii}}}%
+    \textbf{\ifdefempty{\@nameiiii}{}{, \@nameiiii\ \MakeUppercase{\@surnameiiii}}}%
+    \textbf{\ifdefempty{\@nameiiiii}{}{, \@nameiiiii\ \MakeUppercase{\@surnameiiiii}}}%
     \\\vspace{5mm}
     \textbf{\MakeUppercase{\@titlePL}}\\
     \textbf{\MakeUppercase{\@titleEN}} \\\vspace{5mm}
