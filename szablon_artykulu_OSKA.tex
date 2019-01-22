@@ -61,7 +61,10 @@ backend=biber
 % Ponieważ `csquotes` nie posiada polskiego stylu, można skorzystać z mocno zbliżonego stylu chorwackiego.
 \DeclareQuoteAlias{croatian}{polish}
 
+% Przecinki do numerów
+\usepackage{icomma}
 % ------------------------
+
 % --- < listingi > ---
 
 % Użyj czcionki kroju Times.
@@ -180,9 +183,9 @@ Wzory matematyczne powinny być wyśrodkowane z numeracją w nawiasie okrągłym
 
 
 \noindent gdzie:\\
-V –- objętość, m$^3$\\
-$\alpha$ -– współczynnik pochłaniania dźwięku\\
-S –- pole powierzchni ścian ograniczających, m$^2$\\
+V -- objętość, \si{\meter\cubed}\\
+$\alpha$ -- współczynnik pochłaniania dźwięku\\
+S -- pole powierzchni ścian ograniczających, \si{\meter\squared}\\
 
 Rysunki powinny być wyśrodkowane, do każdego rysunku powinno być odwołanie w~tekście pracy (Rysunek~\ref{rys1}). Podpis znajduje się pod rysunkiem.
 
@@ -202,7 +205,8 @@ Tabelę opisuje się u góry, do każdej tabeli powinno być odwołanie w tekśc
 	\begin{tabular}{|c|c|c|c|c|c|c|c|}
 		\hline
 		\multirow{3}{*}{\textbf{Rodzaj materiału}} & \multicolumn{7}{|c|}{\textbf{Współczynnik pochłaniania dźwięku} $\boldsymbol{\alpha_f}$} \\\cline{2-8}
-		& \multicolumn{6}{|c|}{\textbf{pasmo częstotliwości \textit{f}, Hz}} & \textbf{średnia}\\\cline{2-8}
+		& \multicolumn{6}{|c|}{\textbf{pasmo częstotliwości \textit{f},
+	    \si{\hertz}}} & \textbf{średnia}\\\cline{2-8}
 		& \textbf{125} & \textbf{250} & \textbf{500} & \textbf{1000} & \textbf{2000} & \textbf{4000} &\\\hline
 		Materiał 1 & 0,07 & 0,26 & 0,26 & 0,17 & 0,10 & 0,07 & 0,16 \\\hline
 		Materiał 2 & 0,02 & 0,12 & 0,24 & 0,36 & 0,45 & 0,70 & 0,32 \\\hline
