@@ -36,7 +36,7 @@
 
 \RequirePackage[font=small, labelfont=bf, labelsep=quad]{caption}
 \RequirePackage{subcaption}
-\RequirePackage[detect-weight=true, detect-family=true]{siunitx}
+\RequirePackage[detect-weight=true, detect-family=true, binary-units=true]{siunitx}
 \RequirePackage{enumerate}
 \RequirePackage{enumitem}
 \RequirePackage[all,defaultlines=2]{nowidow} % Kontrola sierot i wdów - działa lepiej niż \widowpenalty i \clubpenalty
