@@ -34,7 +34,7 @@
 \RequirePackage{mfirstuc}
 \RequirePackage{setspace}
 
-\RequirePackage[font=small, labelfont=bf, labelsep=quad]{caption}
+\RequirePackage[font=small, labelfont=bf, labelsep=period]{caption}
 \RequirePackage{subcaption}
 \RequirePackage[detect-weight=true, detect-family=true, binary-units=true]{siunitx}
 \RequirePackage{enumerate}
